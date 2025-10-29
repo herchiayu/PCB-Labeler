@@ -69,12 +69,12 @@ DATA_DIR = BASE_DIR / "data"
 WEIGHTS_DIR = BASE_DIR / "weights"
  
 # 子目錄
-ORIGINAL_DIR = DATA_DIR / "original"
-LABELED_DIR = DATA_DIR / "labeled"
+ORIGINAL_DIR = DATA_DIR / "image"
+LABELED_DIR = DATA_DIR / "label"
 AUTO_LABELED_DIR = DATA_DIR / "auto_labeled"
  
 # 檔案路徑
-WEIGHTS_PATH = WEIGHTS_DIR / "yolov8_pcb_best.pt"
+WEIGHTS_PATH = WEIGHTS_DIR / "best.pt"
 CLASSES_PATH = LABELED_DIR / "classes.txt"
 PRETRAINED_MODEL_PATH = WEIGHTS_DIR / TRAINING_CONFIG['MODEL_SIZE']
  
